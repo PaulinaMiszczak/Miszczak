@@ -11,7 +11,6 @@ def draw():
         if (key == CODED):
             if (keyCode == 39):
                 fill(255, 255, 255, 255)
-    if keyPressed:
         if (key == 'm'):
             fill(255, 255, 255, 255)
     elif (mouseX > width/2-40) and (mouseX < width/2-20) and (mouseY > 160) and (mouseY < 200):
@@ -47,3 +46,5 @@ def draw():
     s.vertex(width/2+120, height/2+110)
     s.endShape(CLOSE) 
     shape(s, 15, 0)
+    
+# 2pkt
