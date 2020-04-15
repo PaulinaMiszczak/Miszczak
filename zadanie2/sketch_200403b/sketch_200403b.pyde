@@ -43,6 +43,8 @@ def draw():
     
     if mousePressed:
         exit()
+        
+#1,75
     
     
 
