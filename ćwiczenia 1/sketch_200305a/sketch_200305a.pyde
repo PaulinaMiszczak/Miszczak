@@ -9,5 +9,7 @@ def draw():
     #line(mouseX,mouseY,mouseX,mouseY)
     #rect(width/2,height/2,mouseX,mouseY)
     if mousePressed:
-        rect(40,20,55,55)
-    else:circle(50,50,60)
+        rect(width/10,20,55,55) # tam gdzie się da, warto stosować zmienne zależne
+    else:
+        circle(50,50,height/10)
+# 1,5pkt
