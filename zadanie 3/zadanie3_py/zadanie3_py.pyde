@@ -1,22 +1,24 @@
 def setup():
     size(300, 400)
     textSize(40)
-
+    global k_zaznaczenia, k_bialy # warto czasem stworzyć zmienną po prostu dla czytelności :)
+    k_zaznaczenia = (220, 130, 30, 50) 
+    k_bialy = (255) # w przypadku białego, czarnego i szarości wystarczy jedna wartość
+    
 def draw():
     background(0)
     if keyPressed:
         if (key == CODED):
             if (keyCode == 37):
-                fill(220, 130, 30, 50)
-        if (key == CODED):
+                fill(*k_zaznaczenia)
             if (keyCode == 39):
-                fill(255, 255, 255, 255)
+                fill(k_bialy)
         if (key == 'm'):
-            fill(255, 255, 255, 255)
+            fill(k_bialy)
     elif (mouseX > width/2-40) and (mouseX < width/2-20) and (mouseY > 160) and (mouseY < 200):
-        fill(220, 130, 30, 50)
+        fill(*k_zaznaczenia)
     else:
-        fill(255,255,255,255)
+        fill(k_bialy)
         
     text("P", width/2-40, height/2)
     
@@ -24,15 +26,14 @@ def draw():
     if keyPressed:
         if (key == CODED):
             if (keyCode == 39):
-                fill(130,220,30,80)
+                fill(*k_zaznaczenia)
             if (keyCode == 37):
-                fill(255, 255, 255, 255)
+                fill(k_bialy)
         if (key == 'm'):
-            fill(130,220,30,80)
+            fill(*k_zaznaczenia)
     else:
-        fill(255,255,255,255)
-        
-        
+        fill(k_bialy)
+            
     text("M", width/2, height/2)
     
     s = createShape()
@@ -47,4 +48,5 @@ def draw():
     s.endShape(CLOSE) 
     shape(s, 15, 0)
     
+# mały mankament: strzałki działają również, gdy nic nie jest zaznaczone, ale to było tricky ;)
 # 2pkt
