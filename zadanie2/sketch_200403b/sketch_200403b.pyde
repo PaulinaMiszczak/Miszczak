@@ -12,7 +12,7 @@ def setup():
     Speedy = 5
     
     global slownik_kolorow
-    slownik_kolorow = {"czerwony":(255,0,0,0), "niebieski":(0,0,255,0), "zielony":(0,255,0,0)}
+    slownik_kolorow = {"czerwony":(255,0,0,120), "niebieski":(0,0,255,120), "zielony":(0,255,0,120)} # ostatnia liczba odpowiada za przeźroczystość - jeśli ustawizs ją na zero, kolor nie będzie widoczny.
     global lista_kolorow
     lista_kolorow = []
     for klucz, wartosc in slownik_kolorow.items(): 
@@ -39,7 +39,6 @@ def draw():
     iteracja_programu +=1 
 
     fill(*lista_kolorow[iteracja_programu%len(lista_kolorow)])
-    fill(*slownik_kolorow["czerwony"])
     
     if mousePressed:
         exit()
