@@ -1,6 +1,6 @@
 def setup():
     global img
-    size(500,500)
+    size(500,500) # to nie są proporcje zdjęcia dokumentowego
     img = loadImage("portret.jpg")
     
     
@@ -26,3 +26,7 @@ def draw():
         
 def mousePressed():
     exit()
+    
+# gdzie eksport do pdf'a?
+
+# 0,75pkt
