@@ -1,0 +1,14 @@
+Bankomat:
+	Stan_konta
+	Wybierz_Kwote
+	Wybierz_Nominał
+	Potwierdź
+	Wróć
+
+Klient:
+	Włóż_Karte
+	Sprawdz_Stan_Konta
+	Wypłać
+	Wpłać
+	Zatwierdź 
+	Wyjmij_karte
