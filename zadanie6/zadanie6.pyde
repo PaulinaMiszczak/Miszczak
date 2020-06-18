@@ -15,7 +15,7 @@ class PasiastyKwadrat(Kwadrat):
             line(x+_xLinii_, y, x+_xLinii_, y+self.bok)
             _xLinii_ +=space
             
-class InnyKwadrat(Kwadrat):
+class InnyKwadrat(Kwadrat): # trochę mało się różni jak na inny
     def sketchInny(self, x, y, linie):
         Kwadrat.sketch(self,x, y)
         przestrzen = self.bok/linie
@@ -33,9 +33,5 @@ def setup():
     duzyKwadrat.sketchInny(50,200,20)
     malyInnyKwadrat = InnyKwadrat(10.0)
     malyInnyKwadrat.sketchInny(120,100,40)
-    
-    
-    
-    
 
-    
+# 1 pkt, nie liczę rzezy, które są tak jak w mojej klasie, bo mogły być skopiowane bez zrozumienia, jedynie ze zmianą nazw
