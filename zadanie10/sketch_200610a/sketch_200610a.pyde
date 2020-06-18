@@ -62,21 +62,22 @@ def mouseClicked():
         
 import unittest
 
-class Test(unittest.TestCase):
+class MojeTesty(unittest.TestCase):# nazwy powinny mówić co robią, ale nie  tak ogólnie
     
-    def liczba(self):
+    def test_liczba_ksiazek(self): # nazwy testó muszą zaczynać się od test, o czym zapomniałam wspomnieć
         ksiazki = ["Naocznosc", "Sens Sztuki", "Harry Potter","Sklepik z niespodzianka"]
-        result = len(ksiazki)
+        mylibrary = Library(ksiazki)# skoro testujemy kod, to wypadałoby go użyć, zamiast pisać nowy - skorzystać z napisanych klas
+        result = len(mylibrary.availableBooks)
         self.assertNotEqual(result, 3)
 
-    def kolejnosc_ksiazki(self):
+    def test_kolejnosc_ksiazki(self):
         ksiazki = ["Naocznosc", "Sens Sztuki", "Harry Potter","Sklepik z niespodzianka"]
-        result = sorted(ksiazki)
+        mylibrary = Library(ksiazki)
+        result = sorted(mylibrary.availableBooks) # tu testujesz funkcję sortującą, nie klasy
         self.assertEqual(result, ["Harry Potter", "Naocznosc", "Sens Sztuki", "Sklepik z niespodzianka"])
 
-    
 
 if __name__ == '__main__':
     unittest.main()
         
-        
+# 1,5pkt    
