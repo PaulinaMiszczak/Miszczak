@@ -54,6 +54,8 @@ def draw():
 def mouseClicked():  
     if mouseX >100 and mouseX<200:
         if mouseY >10 and mouseY <30:
-            library.lendBook(Rysiek.requestBook("Naocznosc")) 
+            library.lendBook(Rysiek.requestBook("Naocznosc")) # miał być dodany, a nie zastąpiony
         if mouseY >40 and mouseY <60:
             library.addBook(Rysiek.returnBook())
+            
+# 0,25/0,5 pkt za tą część

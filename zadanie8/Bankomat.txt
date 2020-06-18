@@ -1,14 +1,16 @@
 Bankomat:
-	Stan_konta
+	Stan_konta # stan konta klienta? czy gotówki w bankomacie
 	Wybierz_Kwote
 	Wybierz_Nominał
 	Potwierdź
-	Wróć
+	Wróć # to się tyczy menu , czy cofnięcia akcji? bo jeśli menu, to do tego raczej powinna być oddzielna klasa z chodzeniem po przyciskach
 
-Klient:
-	Włóż_Karte
+Klient: # a może karta? jeden klient może mieć róźne konta w kilku bankach, konto jest przypisane do karty
+	Włóż_Karte # to bardziej bankomat
 	Sprawdz_Stan_Konta
 	Wypłać
 	Wpłać
 	Zatwierdź 
-	Wyjmij_karte
+	Wyjmij_karte # to też bardziej akcja bankomatu
+
+# średnio logicznie podzielone, 0,75pkt/1,5 za tą część
