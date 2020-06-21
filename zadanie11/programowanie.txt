@@ -1,0 +1,12 @@
+Montażysta 
+
+Klient chce zmontować film i oglada efekt końcowy: Flimik bardzo mi się podoba,
+ jednak niekóre fragmenty wydają mi się za ciemne, i można by dodać jakieś  udziwnienia żeby był ciekawy dla każdej grupy wiekowej.
+Montażysta: Pewnie moge dodać np.animacje rysunkową, podwyższyć kntrast i wygładzić przejscia miedzy poszczególnymi klatkami projektu. 
+Poprawie również przezroczystoć dodanych elementów aby bardziej współgrały z tłem.
+WZORZEC: fasada
+DLACZEGO: Klient przekazuje w prosty sposób co chciałyby mieć na filmie natomiast montażysta profesjonalnie dzieli prace na etapy i używa nazw związanych z jego zawodem.
+Montażysta jest fasadą. 
+
+
+
