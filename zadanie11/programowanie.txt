@@ -6,7 +6,11 @@ Montażysta: Pewnie moge dodać np.animacje rysunkową, podwyższyć kntrast i w
 Poprawie również przezroczystoć dodanych elementów aby bardziej współgrały z tłem.
 WZORZEC: fasada
 DLACZEGO: Klient przekazuje w prosty sposób co chciałyby mieć na filmie natomiast montażysta profesjonalnie dzieli prace na etapy i używa nazw związanych z jego zawodem.
-Montażysta jest fasadą. 
+Montażysta jest fasadą.
+
+W fasadzie ide ajest taka, że element od bardziej skomplikowanych funkcjonalności niemusi tłumaczyć prostszemu, tylko zrobić skomplikowaną robotę za niego.
+Ale na roku zgadli wszyscy.
+1,5pkt
 
 
 
